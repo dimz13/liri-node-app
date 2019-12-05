@@ -6,15 +6,15 @@
   - Using using node js LIRI will accept commands from command line to execute the following and display requested details.
   - **movie-this** - will display movie related details fetched from OMDB. A default movie listing will be returned if no movie title is specified. 
   Example: _node liri movie-this it_  you will see:
-  *Movie Title: Dr. Who and the Daleks
-  *Release Year: 1965
-  *IMDB Rating: 5.7
-  *RottenTomato Rating: 47%
-  *Made In : UK
-  *Language : English
-  *Movie Plot : An eccentric inventor and his companions travel in his TARDIS to the Planet Skaro .. and battle the evil    menace of the Daleks.
-  *Actors : Peter Cushing, Roy Castle, Jennie Linden, Roberta Tovey
-***
+  -Movie Title: Dr. Who and the Daleks
+  -Release Year: 1965
+  -IMDB Rating: 5.7
+  -RottenTomato Rating: 47%
+  -Made In : UK
+  -Language : English
+  -Movie Plot : An eccentric inventor and his companions travel in his TARDIS to the Planet Skaro .. and battle the evil    menace of the Daleks.
+  -Actors : Peter Cushing, Roy Castle, Jennie Linden, Roberta Tovey
+____________________________________________
   - **spotify-this-song** - will fetch album/song rlated details from spotify. if no song is specified a default song detail will be displayed.
   Example: node liri spotify-this-song good girls gone bad
   ..*Artist Name:  the JaneDear girls
