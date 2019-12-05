@@ -4,7 +4,7 @@
 
 ## How it works
   - Using using node js LIRI will accept commands from command line to execute the following and display requested details.
-  - **movie-this** - will display movie related details fetched from OMDB. A default movie listing will be returned if no movie title is specified. 
+  #### **movie-this** - will display movie related details fetched from OMDB. A default movie listing will be returned if no movie title is specified. 
   Example: _node liri movie-this it_  you will see:
   - Movie Title: Dr. Who and the Daleks
   - Release Year: 1965
