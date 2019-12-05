@@ -6,43 +6,43 @@
   - Using using node js LIRI will accept commands from command line to execute the following and display requested details.
   - **movie-this** - will display movie related details fetched from OMDB. A default movie listing will be returned if no movie title is specified. 
   Example: _node liri movie-this it_  you will see:
-  -Movie Title: Dr. Who and the Daleks
-  -Release Year: 1965
-  -IMDB Rating: 5.7
-  -RottenTomato Rating: 47%
-  -Made In : UK
-  -Language : English
-  -Movie Plot : An eccentric inventor and his companions travel in his TARDIS to the Planet Skaro .. and battle the evil    menace of the Daleks.
-  -Actors : Peter Cushing, Roy Castle, Jennie Linden, Roberta Tovey
+  - Movie Title: Dr. Who and the Daleks
+  - Release Year: 1965
+  - IMDB Rating: 5.7
+  - RottenTomato Rating: 47%
+  - Made In : UK
+  - Language : English
+  - Movie Plot : An eccentric inventor and his companions travel in his TARDIS to the Planet Skaro .. and battle the evil    menace of the Daleks.
+  - Actors : Peter Cushing, Roy Castle, Jennie Linden, Roberta Tovey
 ____________________________________________
   - **spotify-this-song** - will fetch album/song rlated details from spotify. if no song is specified a default song detail will be displayed.
   Example: node liri spotify-this-song good girls gone bad
-  ..*Artist Name:  the JaneDear girls
-  ..*Album Name:  Good Girls Gone Bad
-  ..*Song Name:  Good Girls Gone Bad
-  ..*Preview URL:  https://p.scdn.co/mp3-preview/94a2961a61de7ebc0756fa3a9798d991c36ddd14?cid=a71a989a70ee4636974eb314328472a7
+  - Artist Name:  the JaneDear girls
+  - Album Name:  Good Girls Gone Bad
+  - Song Name:  Good Girls Gone Bad
+  - Preview URL:  https://p.scdn.co/mp3-preview/94a2961a61de7ebc0756fa3a9798d991c36ddd14?cid=a71a989a70ee4636974eb314328472a7
 
-  ---
+  ____________________________________________________________________
   - **do-what-it-says** - will read details from a random.txt file and execute the command. Eg. if spotify-this,"I Want it That Way" is the file content then the song details for this song is returned.
   Example: node liri.js do-what-it-says
-  ..*Artist Name:  Backstreet Boys
-  ..*Album Name:  The Hits--Chapter One
-  ..*Song Name:  I Want It That Way
-  ..*Preview URL:  https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=a71a989a70ee4636974eb314328472a7
+  - Artist Name:  Backstreet Boys
+  - Album Name:  The Hits--Chapter One
+  - Song Name:  I Want It That Way
+  - Preview URL:  https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=a71a989a70ee4636974eb314328472a7
 
-  ---
+  ____________________________________________
 
   - **concert-this** - will fetch band/artist events from bandintown api. this also uses momentjs to display time in mm/dd/yyyy format.
   Example: node liri concert-this taylor swift
-  ..*Venue Name: Capital's Jingle Bell Ball
-  ..*Venue Location: London, United Kingdom
-  ..*Venue Coordinates: 51.503038, 0.0031543
-  ..*Date of the Event: 12/08/2019
+  - Venue Name: Capital's Jingle Bell Ball
+  - Venue Location: London, United Kingdom
+  - Venue Coordinates: 51.503038, 0.0031543
+  - Date of the Event: 12/08/2019
 =================================
-  ..*Venue Name: Z100's Jingle Ball Presented by Capital One
-  ..*Venue Location: New York, United States
-  ..*Venue Coordinates: 40.7507387, -73.9937978
-  ..*Date of the Event: 12/13/2019
+ - Venue Name: Z100's Jingle Ball Presented by Capital One
+ - Venue Location: New York, United States
+ - Venue Coordinates: 40.7507387, -73.9937978
+ - Date of the Event: 12/13/2019
 ================================= 
 
 ## Tools Used
