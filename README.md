@@ -2,7 +2,7 @@
 - LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.For example LIRI is like iphone's SIRI.
 
 # Liri movie-this
-[movie-this] (https://dimz13.github.io/liri-node-app/.)
+![liri-movie-gif](/liri-movie.gif)
 
 ## How it works
   - Using using node js LIRI will accept commands from command line to execute the following and display requested details.
